@@ -379,11 +379,9 @@
         </div>
         <div class="subscription-form">
           <p class="subscription-title">Subscribe</p>
-          <form class="subscription-form" action="">
+          <form>
             <div class="sub-form-wrapper">
-              <label class="subscription-label" for="sub_field">
-                <input class="subscription-form-field" type="email" name="sub_field" id="sub_field" placeholder="Email">
-              </label>
+              <input class="subscription-form-field" type="email" name="sub_field" id="sub_field" placeholder="Email">
               <button class="sub-button button" type="button">Subscribe
                 <svg class="sub-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-sub"></use>
@@ -403,7 +401,7 @@
           </svg>
         </button>
         <strong class="modal-title">Leave your contacts and we will call you back</strong>
-        <form class="modal-form form" action="" >
+        <form class="modal-form form">
           <label class="form-label" for="modal_name">Name</label>
           <div class="form-wrapper">
             <input class="form-field" type="text" name="modal_name" id="modal_name">
@@ -429,7 +427,8 @@
           <textarea class="form-comment" name="modal_comment" id="modal_comment" rows="6" placeholder="Text input"></textarea>
           <label class="form-agreement">
             <input  class="form-checkbox-input" type="checkbox" name="modal_agreement">
-            <span class="form-agreement-text">I accept the terms and conditions of the <a href="" class="form-agreement-link">Privacy Policy</a></span>
+            <span class="custom-check"></span>
+            <span class="form-agreement-text"> I accept the terms and conditions of the <a href="" class="form-agreement-link">Privacy Policy</a></span>
           </label>
           <button class="order-button button" type="submit">Send</button>
         </form>
